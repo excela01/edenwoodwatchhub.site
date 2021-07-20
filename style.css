@@ -1,4 +1,4 @@
-/*ini*/
+
 /*colors:
 purple #9b59b6 
 silver:  #ecf0f1*/
@@ -149,7 +149,11 @@ h4,
 .section-testimonials h3,
 .section-plans h3{
     font-weight: bolder;
+<<<<<<< HEAD
+/*    color: #000;*/
+=======
     color: #000;
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
         
 }
 
@@ -330,6 +334,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
 }
 
@@ -516,6 +521,12 @@ margin-bottom: 50px;
     font-size: 90%;
     background-color: rgba(213, 171, 230, 0.08);
     font-weight: 150%;
+/*
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
+*/
 }
 
 
@@ -538,6 +549,98 @@ margin-bottom: 50px;
 
 .city-feature {
     margin-bottom: 5px;
+/*
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
+*/
 }
 
 
+
+.section-steps {
+    background-color: #fff
+}
+
+
+
+/*--------------------------------------------*/
+/*------------TESTIMONIAL-----------------*/
+/*--------------------------------------------*/
+
+.section-testimonials{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(8, 7, 8, 0.69)),  url(webDev/background2.jpg);
+    background-size: 600px;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote:before{
+    content: "\201c";
+    display: block;
+    font-size: 500%;
+    position: absolute;
+    top: 23px;
+    left: -5px;
+    padding: 2px;
+}
+
+blockquote{
+    padding: 2%;
+    height: 300px;
+    padding: 15px;
+    font-style: italic;
+    background-color: rgba(187, 176, 191, 0.85);
+    line-height: 145%;
+    border-radius: 4%;
+    position: relative;
+    margin-top: 30px;
+}
+blockquote .para{
+    margin-bottom: 10px;
+    height: 85px;
+    display: block;
+    margin-top: 10px;
+}
+/*
+
+blockquote p:first-child:after{
+    content: " ";
+    width: 30%;
+    color: rgb(182, 69, 216);
+    padding: 1px;
+    background-color: #8d6887;
+    display: block;
+    margin: 0 auto;
+    
+}
+*/
+
+cite:before{
+    content: " ";
+    width: 30%;
+    color: rgb(182, 69, 216);
+    padding: 1px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+cite{
+    font-size: 90%;
+    font-weight: 125%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+     width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
